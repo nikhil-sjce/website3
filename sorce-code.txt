@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<!--head section-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>NIKHIL VYAS</title>
+    <link rel="icon" href="nikhil.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display:wght@800&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+      <script src="https://kit.fontawesome.com/7e7e40ec06.js" crossorigin="anonymous"></script>
+  </head>
+
+
+
+  <!--body section-->
+
+
+<!--navbar section-->
+
+<div class="navcontainer">
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark  navv-background">
+        <a class="navbar-brand" href="#">
+          <img class="webd" src="web.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class = "navbar-nav ml-auto">
+            <li class = "nav-item">
+              <a class = "nav-link navlink marginl" href="#aboutref">About</a>
+            </li>
+            <li class = "nav-item">
+              <a class = "nav-link marginlr navlink" href="#skillref">Skills</a>
+            </li>
+            <li class ="nav-item">
+              <a class = "nav-link marginr navlink" href="#edref">Education</a>
+            </li>
+            <li class ="nav-item">
+              <a class = "nav-link marginr navlink" href="#contactref">Contacts</a>
+            </li>
+          </ul>
+        </div>
+
+</div>
+
+
+
+
+
+
+  <!--image name section-->
+
+  <div class="container">
+  <img src="startingimg3.jpg" width="100%" height="50%">
+
+  <div class="centered"><h1 class="name">I'M NIKHIL VYAS</h1></div>
+</div>
+
+
+
+
+
+
+
+
+<!--about me section-->
+
+
+
+<div id="aboutref"class="Aboutme">
+  <h2 class="hello">ABOUT ME</h2>
+  <p>A Small Introduction About Myself</p>
+  <div class="row">
+  <div class="col-lg-6 ">
+    <img  class="avatar"src="img_avatar.png" width="200" height="200">
+  </div>
+  <div class="col-lg-6  aboutcontent">
+    <h3 class="aboutcontents">Nikhil Vyas</h3>
+    <h5 class="aboutcontents">Aspiring Web And Software Developer</h5>
+    <p class="aboutcontents">I'm Nikhil,a music lover,19 something year's old ,
+       an aspiring web and software developer with an
+       educational background of Information Science.
+       I am currently persuing my engineering degree
+       from SJCE,Mysore,India.I started learning web
+       development in 2020.I love to learn new things
+       everyday and keep up with the new technologies. </p>
+  </div>
+
+
+
+
+
+</div>
+</div>
+
+
+
+<!--skills-->
+
+<div id="skillref" class="skills">
+  <h1>TECHNICAL SKILLS</h1>
+  <h5>I Can Say I'm Quite Good At</h5>
+  <section class="languages">
+    <h2 class="skill">Languages</h2>
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="skillimg" src="c.png" height="200" width="200">
+      </div>
+      <div class="col-lg-4">
+        <img class="skillimg" src="c++.png" height="200" width="200" >
+      </div>
+      <div class="col-lg-4">
+        <img class="skillimg" src="python.png" height="200" width="200" >
+      </div>
+    </div>
+  </section>
+  <section class="languages">
+    <h2 class="skill">Front End</h2>
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="skillimg" src="html.jpg" height="200" width="200">
+      </div>
+      <div class="col-lg-4">
+        <img class="skillimg" src="css.webp" height="200" width="200" >
+      </div>
+      <div class="col-lg-4">
+        <img class="skillimg" src="bootstrap.png" height="200" width="200" >
+      </div>
+    </div>
+  </section>
+  <section class="languages">
+    <h2 class="skill">Back End</h2>
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="skillimg" src="js.jpg" height="200" width="200">
+      </div>
+      <div class="col-lg-4">
+        <img class="skillimg" src="jq1.webp" height="200" width="200" >
+      </div>
+      <div class="col-lg-4">
+        <img class="skillimg" src="node.svg" height="200" width="200" >
+      </div>
+    </div>
+  </section>
+  <section class="languages">
+    <h2 class="skill">Others</h2>
+    <div class="row">
+      <div class="col-lg-6">
+        <img class="skillimg" src="express.png" height="200" width="200">
+      </div>
+      <div class="col-lg-6">
+        <img class="skillimg" src="npm.png" height="200" width="200" >
+      </div>
+       </div>
+  </section>
+</div>
+
+
+<!-- education and certifications-->
+
+<div id="edref"class="Aboutme">
+
+  <h2 class="hello">EDUCATION</h2>
+
+  <div class="row">
+  <div class="col-lg-6 ">
+    <img  class="avatar"src="sjce.png" width="200" height="200">
+  </div>
+  <div class="col-lg-6  aboutcontent">
+    <h5 class="aboutcontents">Shi Jayachamarajendra College Of Engineering</h5>
+    <h5 class="aboutcontents">Mysore,Karnataka</h5>
+    <h5 class="aboutcontents">Bachelor Of Engineering - BE</h5>
+    <h5 class="aboutcontents">Information Science And Engineering</h5>
+    <h5 class="aboutcontents">2019-2023</h5>
+    <h5 class="aboutcontents">9.12 GPA Till 1st Sem</h5>
+  </div>
+  <div class="col-lg-6 ">
+    <img  class="avatar"src="vss.png" width="200" height="200">
+  </div>
+  <div class="col-lg-6  aboutcontent">
+    <h5 class="aboutcontents">Vidyasagar School</h5>
+    <h5 class="aboutcontents">Indore,M.P</h5>
+    <h5 class="aboutcontents">10th - 9.8 GPA </h5>
+    <h5 class="aboutcontents">12th - 84.2%</h5>
+  </div>
+  </div>
+</div>
+
+  <div class="Aboutmeb">
+
+    <h2 class="hellob">CERTIFICATIONS</h2>
+
+    <div class="row">
+    <div class="col-lg-6 ">
+      <img  class="avatarb"src="courseera.png" width="200" height="200">
+    </div>
+    <div class="col-lg-6  aboutcontentb">
+      <h5 class="aboutcontentsb">Object Oriented Data Structures In c++</h5>
+      <h5 class="aboutcontentsb">Issued Jul 2020 - No Expiration Date</h5>
+      <h5 class="aboutcontentsb">University Of Illinois At Urbana-champaign</h5>
+      <a class="aboutcontentsb link" href="https://www.coursera.org/account/accomplishments/records/FFV5478EQHTH">See Credentials</a>
+    </div>
+    <div class="col-lg-6 ">
+      <img  class="avatarb"src="courseera.png" width="200" height="200">
+    </div>
+    <div class="col-lg-6  aboutcontentb">
+      <h5 class="aboutcontentsb">Getting Started With Python</h5>
+      <h5 class="aboutcontentsb">Issued Jul 2020 - No Expiration Date</h5>
+      <h5 class="aboutcontentsb">University Of Michigan</h5>
+      <a class="aboutcontentsb link" href="https://www.coursera.org/account/accomplishments/records/8DU6936C3RYW">See Credentials</a>
+    </div>
+    <div class="col-lg-6 ">
+      <img  class="avatarb"src="courseera.png" width="200" height="200">
+    </div>
+    <div class="col-lg-6  aboutcontentb">
+      <h5 class="aboutcontentsb">Python Data Structures</h5>
+      <h5 class="aboutcontentsb">Issued Jul 2020 - No Expiration Date</h5>
+      <h5 class="aboutcontentsb">University Of Michigan</h5>
+      <a class="aboutcontentsb link" href="https://www.coursera.org/account/accomplishments/records/22732WXL99PQ">See Credentials</a>
+    </div>
+    </div>
+</div>
+
+
+    <!-- contacts-->
+
+
+
+   <div class="socials">
+
+<h2 id="contactref">Contact Me</h4>
+<a class="color"href="https://www.linkedin.com/in/nikhil-vyas-98a1bb150/"><i class="fab fa-linkedin contactfont"></i></a>
+<a class="color"href="https://www.hackerrank.com/NVYAS?hr_r=1"><i class="fab fa-hackerrank contactfont"></i></a>
+<a class="color"href="https://www.instagram.com/nikhilvyas92/"><i class="fab fa-instagram contactfont"></i></a>
+<a class="color"href="https://github.com/nikhil-sjce"><i class="fab fa-github contactfont"></i></a>
+<a class="color"href="sorce-code.txt"><h6 class="contactsourcecode">Website Source Code For Reference </h6></a>
+
+Made With ❤ In India
+
+© 2020 Nikhil Vyas
+</div>
